@@ -1,4 +1,7 @@
-This is your new Play application
+Mahjong
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+Deployment :
+export BEES_HOME=~/cloudbees-sdk
+export PATH=$PATH:$BEES_HOME
+bees app:deploy -a siriusxiv/mahjong -t play2 target/universal/mahjong-1.0-SNAPSHOT.zip
